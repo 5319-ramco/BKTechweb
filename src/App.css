@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.login-container, .signup-container, .dashboard-container {
+  background-color: lightgreen;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.green-button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.horizontal-menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: green;
+  padding: 10px;
+}
+
+.horizontal-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.horizontal-menu a:hover {
+  background-color: darkgreen;
+}
